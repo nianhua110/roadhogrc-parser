@@ -15,7 +15,7 @@ import javax.swing.*;
 public class RoadhogrcLanguage extends LanguageFileType {
   public static final RoadhogrcLanguage INSTNACE = new RoadhogrcLanguage();
 
-  public RoadhogrcLanguage() {
+  protected RoadhogrcLanguage() {
     super(JsonLanguage.INSTANCE);
   }
 

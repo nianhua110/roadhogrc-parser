@@ -1,17 +1,15 @@
 <idea-plugin>
     <id>com.your.company.unique.plugin.id</id>
-    <name>Plugin display name here</name>
+    <name>Roadhogrc Parser</name>
     <version>1.0</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="nianhua110@qq.com" url="https://github.com/nianhua110/roadhogrc-parser">Personal</vendor>
 
     <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      parser roadhogrc file.<br>
     ]]></description>
 
     <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      init
     ]]>
     </change-notes>
 
@@ -32,5 +30,6 @@
     <actions>
         <!-- Add your actions here -->
     </actions>
+    <depends>com.intellij.modules.lang</depends>
 
 </idea-plugin>
